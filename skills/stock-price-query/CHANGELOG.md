@@ -1,5 +1,21 @@
 # Changelog
 
+## v1.0.4 (2026-02-26)
+
+### Changed
+- SKILL.md 输出格式从 Markdown 表格改为紧凑多行格式，避免飞书消息卡片分页
+- 价格与涨跌幅合并为一行展示
+- 成交量与成交额合并为一行展示
+- 成交额增加人性化单位（亿/万）显示要求
+- README.md 新增最终显示格式示例
+
+## v1.0.3 (2026-02-25)
+
+### Security
+- 新增输入安全校验，stock_code 仅允许字母和数字（`^[A-Za-z0-9]{1,10}$`），market 使用白名单（sh/sz/hk/us），防止 shell 命令注入
+- SKILL.md 增加输入安全校验说明
+- 解决 ClawHub VirusTotal 扫描报告中的 Suspicious 标记
+
 ## v1.0.2 (2026-02-24)
 
 ### Reverted
