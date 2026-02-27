@@ -2,6 +2,12 @@
 
 本文件记录 caiyun-weather skill 的所有重要变更。
 
+## [1.1.0] - 2026-02-27
+
+### 修复
+
+- 在 SKILL.md metadata 中声明 `CAIYUN_WEATHER_API_TOKEN` 环境变量（`env`）和主凭证（`primaryEnv`），解决 ClawHub 审核 Suspicious 提示
+
 ## [1.0.0] - 2026-02-27
 
 ### 新增
