@@ -5,7 +5,12 @@ metadata:
   {
     "openclaw":
       {
-        "requires": { "bins": ["python3"] },
+        "requires":
+          {
+            "bins": ["python3"],
+            "env": ["CAIYUN_WEATHER_API_TOKEN"],
+          },
+        "primaryEnv": "CAIYUN_WEATHER_API_TOKEN",
       },
   }
 ---
